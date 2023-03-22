@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập buổi 2</title>
+</head>
+<body>
+    <style>
+        table, tr, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        thead {
+            text-align: center;
+        }
+    </style>
+
+    <h2>Câu 1: Bài tập về thẻ a</h2>
+    <p><a href = "https://www.google.com/">Viết dòng này bằng thẻ a. Khi click vào link sang trang google.com</a></p>
+    <p><a href = "https://www.google.com/" target = "_blank">Viết dòng này bằng thẻ a. Khi click vào link sang trang google.com ở trong tab mới</a></p>
+
+    <h2>Câu 2: Bài tập về thẻ img</h2>
+    <p><strong>Yêu cầu:</strong> Tạo thư mục đặt tên là images, sau đó để hình ảnh bất kỳ vào thư mục images đó.
+         Tiếp theo, chèn hình ảnh đó vào trang web bằng cách sử dụng thẻ img. Đường dẫn ảnh là dạng relative (Đường dẫn tương đối).</p>
+    <img src = "images/test.jpg" alt = "an image">
+
+    <h2>Câu 3: Bài tập về thẻ video</h2>
+    <p><strong>Yêu cầu:</strong> Tạo thư mục đặt tên là videos, sau đó để video bất kỳ vào thư mục videos đó. 
+        Tiếp theo, chèn video đó vào trang web bằng cách sử dụng thẻ video và thẻ source. Đường dẫn video là dạng relative (Đường dẫn tương đối). 
+        Đặt kích thước video có width bằng 720 và height bằng 405 (tương đương tỷ lệ 16/9).</p>
+    <video width="720" height="405" controls muted>
+        <source src = "videos/video.mp4" type="video/mp4">
+    </video>
+
+    <h2>Câu 4: Bài tập về thẻ table</h2>
+    <p><strong>Yêu cầu:</strong> Dùng thẻ table, thead, tbody, tr, th, td đã được học để vẽ bảng sau:</p>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="3">
+                    <strong>Hóa đơn số 1234</strong>
+                </td>
+                <td>
+                    <strong>Ngày 20/11/2022</strong>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <p><strong>Thông tin khách hàng</strong></p>
+                    <p>Họ tên: Đặng Phương Nam</p>
+                    <p>Số điện thoại: 0123456789</p>
+                    <p>Địa chỉ: số 123, đường Abc, thành phố Hà Nội.</p>    
+                </td>
+                <td colspan="2">
+                    <p><strong>Thông tin vận chuyển đơn hàng</strong></p>
+                    <p>Họ tên: Đặng Phương Nam</p>
+                    <p>Số điện thoại: 0987654321</p>
+                    <p>Địa chỉ: số 234, đường Xyz, thành phố Hà Nội.</p>    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><strong>Tên sản phẩm</strong></p>
+                </td>
+                <td>
+                    <p><strong>Số lượng</strong></p>
+                </td>
+                <td>
+                    <p><strong>Đơn giá</strong></p>
+                </td>
+                <td>
+                    <p><strong>Thành tiền</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Giày nam cao cấp</p>
+                </td>
+                <td>
+                    <p>2</p>
+                </td>
+                <td>
+                    <p>800.000đ</p>
+                </td>
+                <td>
+                    <p>1.600.000đ</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Giày nữ cao cấp</p>
+                </td>
+                <td>
+                    <p>1</p>
+                </td>
+                <td>
+                    <p>500.000đ</p>
+                </td>
+                <td>
+                    <p>1.000.000đ</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><strong>Tạm tính</strong></p>
+                </td>
+                <td>
+                    <p>2.600.000đ</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><strong>Thuế VAT 10%</strong></p>
+                </td>
+                <td>
+                    <p>260.000đ</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><strong>Tổng tiền</strong></p>
+                </td>
+                <td>
+                    <p>2.860.000đ</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Câu 5: Bài tập về thẻ ul, ol, li</h2>
+    <p><strong>Yêu cầu:</strong> Tạo danh sách sau sử dụng thẻ ul, li</p>
+
+    <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+    </ul>
+    <p><strong>Yêu cầu:</strong> Tạo danh sách sau sử dụng thẻ ol, li</p>
+
+    <ol>
+        <li>Thời trang</li>
+        <li>Công nghệ</li>
+        <li>Đồ điện tử</li>
+        <li>Đồ gia dụng</li>
+    </ol>
+    <p><strong>Yêu cầu:</strong> Tạo danh sách sau sử dụng thẻ ol, li. Có kiểu là chữ La mã viết hoa</p>
+
+    <ol type = "I">
+        <li>Học HTML5</li>
+        <li>Học CSS3</li>
+        <li>Học Bootstrap 4</li>
+        <li>Học Javascipt</li>
+    </ol>
+
+    <h2>Câu 6: Bài tập về class và id</h2>
+    <p><strong>Yêu cầu:</strong> Viết đoạn văn dưới đây và làm theo nội dung bên trong nó.</p>
+    <div class = "test-class">Viết đoạn văn này sử dụng thẻ div. Sau đó thêm class có giá trị là "test-class" vào thẻ div này.</div>
+    <div id = "test-id">Viết đoạn văn này sử dụng thẻ div. Sau đó thêm id có giá trị là "test-id" vào thẻ div này.</div>
+</body>
+</html>
